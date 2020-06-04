@@ -1,0 +1,34 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "my99n",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/core": "^0.5.2",
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "babel-plugin-emotion": "^10.0.27",
+    "emotion-theming": "^10.0.27",
+    "next": "^9.3.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "BUNDLE_ANALYZE=both next build",
+    "analyze:server": "BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "BUNDLE_ANALYZE=browser next build",
+    "lint": "eslint ."
+  }
+}
