@@ -1,14 +1,14 @@
 import React from 'react'
 import { Box, Flex } from '@chakra-ui/core'
-import { init } from '../constants/initiatives'
+import { experience } from '../constants/experience'
 import { Display } from './Card'
 import { Title } from './Title'
 import { IDisplay } from '../interface'
 
-export const Initiatives = () => {
+export const Experience = () => {
   return (
     <>
-      <Title title="Initiatives" size="lg" />
+      <Title title="Experience" size="xl" />
       <Flex
         direction="column"
         mt={6}
@@ -16,9 +16,9 @@ export const Initiatives = () => {
         mx="auto"
       >
         <Flex flexWrap="wrap" alignItems="center">
-          {init.map((item: IDisplay) => (
-            <Box width={['100%', 1 / 2, 1 / 3, 1 / 3]} px={5} py={3}>
-              <Display {...item} />
+          {experience.map((exp: IDisplay) => (
+            <Box width={['100%', 1 / 2, 1 / 3, 1 / 4]} px={5} py={3}>
+              <Display {...exp} />
             </Box>
           ))}
         </Flex>

@@ -1,8 +1,9 @@
 import React from 'react'
 import { Box, Flex, Heading, Text } from '@chakra-ui/core'
-import { IAward, awards } from '../constants/awards'
+import { awards } from '../constants/awards'
 import { Card } from './Card'
 import { Title } from './Title'
+import { IAward } from '../interface'
 
 export const Award = () => {
   return (

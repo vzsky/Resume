@@ -1,9 +1,4 @@
-export interface IAward {
-  name: string
-  award: string
-  year: string
-  img?: string
-}
+import { IAward } from '../interface'
 
 export const awards: IAward[] = [
   {

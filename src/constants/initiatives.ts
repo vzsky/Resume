@@ -1,14 +1,10 @@
-export interface Ita {
-  name: string
-  desc: string
-  year: string
-  img?: string
-}
+import { IDisplay } from '../interface'
 
-export const ta: Ita[] = [
+export const init: IDisplay[] = [
   {
     name: 'KVISOI Club',
     desc: 'A competitive programming club of students in KVIS',
     year: '2018-2019',
+    role: 'Founder',
   },
 ]

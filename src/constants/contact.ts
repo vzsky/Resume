@@ -1,21 +1,17 @@
 import {
-  FaGithub,
+  FaGithubAlt,
   FaRegEnvelope,
-  FaLinkedin,
-  FaFacebook,
+  FaLinkedinIn,
+  FaFacebookF,
   FaInstagram,
+  FaTelegramPlane,
 } from 'react-icons/fa'
-import { IconType } from 'react-icons/lib'
-
-export interface IContact {
-  href: string
-  icon: IconType
-}
+import { IContact } from '../interface'
 
 export const contact: IContact[] = [
   {
     href: 'https://github.com/vzsky',
-    icon: FaGithub,
+    icon: FaGithubAlt,
   },
   {
     href: 'mailto:touchsungkawichai@gmail.com',
@@ -23,16 +19,24 @@ export const contact: IContact[] = [
   },
   {
     href: 'https://www.linkedin.com/in/touchs/',
-    icon: FaLinkedin,
+    icon: FaLinkedinIn,
   },
   {
     href: 'https://facebook.com/my99n',
-    icon: FaFacebook,
+    icon: FaFacebookF,
   },
   {
     href: 'https://instagram.com/my99.n',
     icon: FaInstagram,
   },
+  {
+    href: 'https://t.me/my99n',
+    icon: FaTelegramPlane,
+  },
 ]
 
-export const name: String = 'Touch Sungkawichai'
+export const info = {
+  name: 'Touch Sungkawichai',
+  phone: '+66802075412',
+  email: 'touchsungkawichai@gmail.com',
+}
