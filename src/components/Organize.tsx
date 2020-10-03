@@ -16,8 +16,8 @@ export const Organize = () => {
         mx="auto"
       >
         <Flex flexWrap="wrap" alignItems="center">
-          {organize.map((organize: IDisplay) => (
-            <Box width={['100%', 1 / 2, 1 / 3, 1 / 4]} px={5} py={3}>
+          {organize.map((organize: IDisplay, i: number) => (
+            <Box key={i} width={['100%', 1 / 2, 1 / 3, 1 / 4]} px={5} py={3}>
               <Display {...organize} />
             </Box>
           ))}

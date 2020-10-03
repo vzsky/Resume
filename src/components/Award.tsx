@@ -16,8 +16,8 @@ export const Award = () => {
         mx="auto"
       >
         <Flex flexWrap="wrap" alignItems="center">
-          {awards.map((award: IAward) => (
-            <Box width={['100%', 1 / 2, 1 / 3, 1 / 4]} px={5} py={3}>
+          {awards.map((award: IAward, i: number) => (
+            <Box key={i} width={['100%', 1 / 2, 1 / 3, 1 / 4]} px={5} py={3}>
               <Card {...award}>
                 <Heading size="md" fontWeight="bold">
                   {award.name}

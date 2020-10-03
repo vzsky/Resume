@@ -16,8 +16,8 @@ export const Initiatives = () => {
         mx="auto"
       >
         <Flex flexWrap="wrap" alignItems="center">
-          {init.map((item: IDisplay) => (
-            <Box width={['100%', 1 / 2, 1 / 3, 1 / 3]} px={5} py={3}>
+          {init.map((item: IDisplay, i: number) => (
+            <Box key={i} width={['100%', 1 / 2, 1 / 3, 1 / 3]} px={5} py={3}>
               <Display {...item} />
             </Box>
           ))}

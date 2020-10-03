@@ -39,12 +39,18 @@ const UnlinkedCard = (props) => {
   )
 }
 
-export const Card = (props) => (
+export const Card = (props: any) => (
   <>
     {props.href ? (
       <Link _hover={null} isExternal href={props.href}>
         <UnlinkedCard {...props} _isLink={{}} />
       </Link>
+    ) : props.onclick ? (
+      <Box onClick={props.onclick}>
+        <Link _hover={null}>
+          <UnlinkedCard {...props} _isLink={{}} />
+        </Link>
+      </Box>
     ) : (
       <UnlinkedCard {...props} />
     )}

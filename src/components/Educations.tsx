@@ -16,8 +16,8 @@ export const Educations = () => {
         mx="auto"
       >
         <Flex flexWrap="wrap" alignItems="center">
-          {educations.map((education: IEdu) => (
-            <Box width={['100%', '100%', 1 / 2, 1 / 2]} px={5} py={3}>
+          {educations.map((education: IEdu, i: number) => (
+            <Box key={i} width={['100%', '100%', 1 / 2, 1 / 2]} px={5} py={3}>
               <Card {...education}>
                 <Heading size="md">{education.name}</Heading>
                 <Text color="gray.500">{education.year}</Text>

@@ -16,8 +16,8 @@ export const Experience = () => {
         mx="auto"
       >
         <Flex flexWrap="wrap" alignItems="center">
-          {experience.map((exp: IDisplay) => (
-            <Box width={['100%', 1 / 2, 1 / 3, 1 / 4]} px={5} py={3}>
+          {experience.map((exp: IDisplay, i: number) => (
+            <Box key={i} width={['100%', 1 / 2, 1 / 3, 1 / 4]} px={5} py={3}>
               <Display {...exp} />
             </Box>
           ))}

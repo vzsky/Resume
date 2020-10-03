@@ -15,9 +15,18 @@ const TypedSkill = (props) => (
       mx="auto"
     >
       <Flex flexWrap="wrap" alignItems="center">
-        {props.skills.map((skill: string) => (
-          <Box width={[1 / 2, 1 / 3, 1 / 4, 1 / 6]} px={[1, 1, 3, 3]} py={2}>
-            <Card>
+        {props.skills.map((skill: string, i: number) => (
+          <Box
+            key={i}
+            width={[1 / 2, 1 / 3, 1 / 4, 1 / 6]}
+            px={[1, 1, 3, 3]}
+            py={2}
+          >
+            <Card
+              onclick={() => {
+              
+              }}
+            >
               <Heading size="md">{skill}</Heading>
             </Card>
           </Box>
@@ -31,8 +40,8 @@ export const Skill = () => {
   return (
     <>
       <Title title="Skills" />
-      {skills.map((val: ISkills) => (
-        <TypedSkill skills={val.skillset} skillType={val.name} />
+      {skills.map((val: ISkills, i: number) => (
+        <TypedSkill key={i} skills={val.skillset} skillType={val.name} />
       ))}
     </>
   )
