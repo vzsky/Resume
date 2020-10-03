@@ -27,9 +27,9 @@ export const Award = () => {
                   {award.name}
                 </Heading>
                 <Text color="gray.500">{award.year}</Text>
-                <Text color="gray.800" mt={2}>
+                <Heading size="md" color="gray.600" mt={2}>
                   {award.award}
-                </Text>
+                </Heading>
               </Card>
             </Box>
           ))}

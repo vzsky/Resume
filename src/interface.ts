@@ -10,6 +10,12 @@ export interface IDisplay {
   img?: string
 }
 
+export interface ITest {
+  name: string
+  score: string
+  year?: string
+}
+
 export interface IEdu {
   name: string
   desc: string
