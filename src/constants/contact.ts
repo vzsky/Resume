@@ -5,6 +5,7 @@ import {
   FaFacebookF,
   FaInstagram,
   FaTelegramPlane,
+  FaMediumM,
 } from 'react-icons/fa'
 import { IContact } from '../interface'
 
@@ -33,10 +34,15 @@ export const contact: IContact[] = [
     href: 'https://t.me/my99n',
     icon: FaTelegramPlane,
   },
+  {
+    href: 'https://medium',
+    icon: FaMediumM,
+  },
 ]
 
 export const info = {
   name: 'Touch Sungkawichai',
   phone: '+66802075412',
   email: 'touchsungkawichai@gmail.com',
+  address: 'Thailand',
 }

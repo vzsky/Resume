@@ -3,7 +3,8 @@ import { Box, Flex, Heading } from '@chakra-ui/core'
 import { skills } from '../constants/skills'
 import { Title } from './Title'
 import { Card } from './Card'
-import { ISkills } from '../interface'
+import { ISkill, ISkills } from '../interface'
+import { MakeTextModal } from './Modal'
 
 const TypedSkill = (props) => (
   <>
@@ -15,19 +16,15 @@ const TypedSkill = (props) => (
       mx="auto"
     >
       <Flex flexWrap="wrap" alignItems="center">
-        {props.skills.map((skill: string, i: number) => (
+        {props.skills.map((skill: ISkill, i: number) => (
           <Box
             key={i}
             width={[1 / 2, 1 / 3, 1 / 4, 1 / 6]}
             px={[1, 1, 3, 3]}
             py={2}
           >
-            <Card
-              onclick={() => {
-              
-              }}
-            >
-              <Heading size="md">{skill}</Heading>
+            <Card onclick={MakeTextModal(skill.name, skill.modalDesc)}>
+              <Heading size="md">{skill.name}</Heading>
             </Card>
           </Box>
         ))}

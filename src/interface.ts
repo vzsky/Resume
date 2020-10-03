@@ -3,6 +3,7 @@ import { IconType } from 'react-icons/lib'
 export interface IDisplay {
   name: string
   desc: string
+  modalDesc: string
   role?: string
   year?: string
   href?: string
@@ -27,10 +28,16 @@ export interface IAward {
   name: string
   award: string
   year: string
+  modalDesc: string
   img?: string
+}
+
+export interface ISkill {
+  name: string
+  modalDesc: string
 }
 
 export interface ISkills {
   name: string
-  skillset: string[]
+  skillset: ISkill[]
 }

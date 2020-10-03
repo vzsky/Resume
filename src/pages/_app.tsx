@@ -13,9 +13,9 @@ export default class CustomApp extends App {
       fonts: {
         ...theme.fonts,
         body:
-          "'Helvetica Neue', 'Segoe UI', 'Helvetica', Kanit, system-ui, sans-serif",
+          "'Helvetica Neue', 'Segoe UI', 'Helvetica', Kanit, system-ui",
         heading:
-          "'Helvetica Neue', 'Segoe UI', 'Helvetica', Kanit, system-ui, sans-serif",
+          "'Helvetica Neue', 'Segoe UI', 'Helvetica', Kanit, system-ui",
       },
     }
 

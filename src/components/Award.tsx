@@ -4,6 +4,7 @@ import { awards } from '../constants/awards'
 import { Card } from './Card'
 import { Title } from './Title'
 import { IAward } from '../interface'
+import { MakeTextModal } from './Modal'
 
 export const Award = () => {
   return (
@@ -18,7 +19,10 @@ export const Award = () => {
         <Flex flexWrap="wrap" alignItems="center">
           {awards.map((award: IAward, i: number) => (
             <Box key={i} width={['100%', 1 / 2, 1 / 3, 1 / 4]} px={5} py={3}>
-              <Card {...award}>
+              <Card
+                onclick={MakeTextModal(award.name, award.modalDesc)}
+                {...award}
+              >
                 <Heading size="md" fontWeight="bold">
                   {award.name}
                 </Heading>

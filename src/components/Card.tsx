@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, PseudoBox, Heading, Text, Flex, Link } from '@chakra-ui/core'
 import { IDisplay } from '../interface'
+import { MakeTextModal } from './Modal'
 
 const boxConfig = {
   boxShadow: 'md',
@@ -58,7 +59,7 @@ export const Card = (props: any) => (
 )
 
 export const Display = (props: IDisplay) => (
-  <Card {...props}>
+  <Card onclick={MakeTextModal(props.name, props.modalDesc)} {...props}>
     <Heading color="gray.600" size="sm">
       {props.role}
     </Heading>

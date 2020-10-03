@@ -4316,7 +4316,7 @@ promise-inflight@^1.0.1:
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
-prop-types@15.7.2, prop-types@^15.5.8, prop-types@^15.6.1, prop-types@^15.6.2:
+prop-types@15.7.2, prop-types@^15.5.8, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -4444,11 +4444,6 @@ react-focus-lock@^2.2.1:
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
 
-react-functional-modal@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/react-functional-modal/-/react-functional-modal-1.0.9.tgz#8cc5a44bd723f05f20902827181a9a4b29f44e21"
-  integrity sha512-4z9SfhvoNSRzFRzhf+b6AXoeXzEXedfgrzGrkGQeq/5AFvWqI18sD7PwmgL2N5XLD8R7nAly00Xc8wcZACe3Bg==
-
 react-icons@^3.9.0:
   version "3.11.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-3.11.0.tgz#2ca2903dfab8268ca18ebd8cc2e879921ec3b254"
@@ -4473,6 +4468,13 @@ react-spring@^8.0.27:
   dependencies:
     "@babel/runtime" "^7.3.1"
     prop-types "^15.5.8"
+
+react-stateless-modal@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/react-stateless-modal/-/react-stateless-modal-1.1.3.tgz#94a6a3cc047eeae3f87d3e9a211933fafa02cb85"
+  integrity sha512-2wtSIqbRVwQQJbA98DAbvT+uxo7aSMl+VpBr0hHqBqSVXPjMatevK8pM8034Y9hyL/mX+u9+VK42qaaa9RfS+Q==
+  dependencies:
+    prop-types "^15.7.2"
 
 react@^16.12.0:
   version "16.13.1"

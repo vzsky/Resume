@@ -24,6 +24,9 @@ export const Name = (props) => (
           <Heading size="sm" color="gray.500">
             {props.email}
           </Heading>
+          <Heading size="sm" color="gray.500">
+            {props.address}
+          </Heading>
         </Box>
       </Flex>
     </Box>
