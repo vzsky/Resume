@@ -16,6 +16,13 @@ export const awards: IAward[] = [
       'I was one of the six representatives of Thailand to compete in the APIO 2020 hosted online by singapore. I score 72 out of 300, which rank me in the 3rd place of Thailand Participants and 141st of the contest.',
   },
   {
+    name: 'International Mathematical Modeling Challenge',
+    year: '2020',
+    award: 'Honorable Mention',
+    modalDesc:
+      'Challenge involved modeling optimized floor plan for a flash selling store',
+  },
+  {
     name: '60th KMUTT Anniversary innovation contest',
     year: '2020',
     award: 'Second place',
