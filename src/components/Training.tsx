@@ -5,7 +5,7 @@ import { Card } from './Card'
 import { IEdu } from '../interface'
 import { Title } from './Title'
 
-export const Schools = () => (
+export const Training = () => (
   <>
     <Title title="Training" size="lg" />
     <Flex

@@ -2,28 +2,29 @@ import { IDisplay } from '../interface'
 
 export const experience: IDisplay[] = [
   {
-    name: 'Student Committee',
+    name: 'KVIS Student Committee',
     year: '2019',
-    desc: 'Hosting multiple events and improving life quality of the students',
+    desc: 'Hosting multiple events and improving life quality of students',
     modalDesc:
-      'Elected as a vice presendent of the committee. Together, we host a sport festival, Thai traditional Loi Kratong, Student concert, Valentine, Prom, and many more. Concerning about the life quality, we negotiate and adjust the dormitory regulation to facilitate the students.',
+      "I was elected as a vice presendent of the committee. Together with the team, we host a sport festival, Thai traditional Loi Kratong, Student concert, Valentine's day, Prom, and many more. Concerning about the life quality, we negotiate and adjust the dormitory and school regulation to facilitate students.",
     role: 'Vice President',
   },
   {
     name: 'PiRSquare',
     year: '2020',
     desc:
-      'Working on a 1-month internship as a full stack developer using NodeJs, ReactJS, TS, and PHP',
+      'I worked on a 1-month internship as a full stack developer using NodeJs, ReactJS, TS, and PHP. I had been assigned to multiple projects to work with other senior developers.',
     modalDesc: 'mock',
     role: 'Developer Intern',
     href: 'http://pirsquare.net',
   },
   {
-    name: 'APCYS App developer',
+    name: 'APCYS',
     year: '2018',
     desc:
       'Creating a web application to facilitate guests of the Asia-Paciffic Conference of Young Scientists',
     modalDesc:
-      'Kamnoetvidya Science Academy had a chance to host the 7th Asia-Paciffic Conference of Young Scienctists. To facilitate guests on registration, club activities, and event notification, my colleages and I produce a simple web-application using flask.',
+      'Kamnoetvidya Science Academy had a chance to host the 7th Asia-Paciffic Conference of Young Scienctists. To facilitate guests on registration, club activities, and event notification, my colleages and I produce a simple web-application using flask and html.',
+    role: 'App developer',
   },
 ]
