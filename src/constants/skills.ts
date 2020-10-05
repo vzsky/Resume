@@ -7,7 +7,7 @@ export const skills: ISkills[] = [
       {
         name: 'C/C++',
         modalDesc:
-          'I can fluently use c++ and c. I have been using C++ since 2018 for competitive programing.',
+          'I can fluently use C++ and C. I have been using C++ since 2018 for competitive programing.',
       },
       {
         name: 'Python',

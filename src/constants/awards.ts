@@ -22,4 +22,11 @@ export const awards: IAward[] = [
     modalDesc:
       'I made an affordable bed-ridden patient scale to measure the weight of the patient accurately, to help hospitals in the rural area. This innovation puts me in the second place.',
   },
+  {
+    name: 'Tanaosri Trail',
+    year: '2017',
+    award: 'Third place of the age group',
+    modalDesc:
+      'I enjoy running. I had a chance to run on trail track and received the third place.',
+  },
 ]

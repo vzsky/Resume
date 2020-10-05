@@ -1,13 +1,13 @@
 import React from 'react'
 import { Box, Flex, Heading, Text } from '@chakra-ui/core'
-import { schools } from '../constants/schools'
+import { trainings } from '../constants/training'
 import { Card } from './Card'
 import { IEdu } from '../interface'
 import { Title } from './Title'
 
 export const Schools = () => (
   <>
-    <Title title="Schools" size="lg" />
+    <Title title="Training" size="lg" />
     <Flex
       direction="column"
       mt={6}
@@ -15,14 +15,16 @@ export const Schools = () => (
       mx="auto"
     >
       <Flex flexWrap="wrap" alignItems="center">
-        {schools.map((school: IEdu, i: number) => (
+        {trainings.map((training: IEdu, i: number) => (
           <Box key={i} width={['100%', '100%', 1 / 2, 1 / 2]} px={5} py={3}>
-            <Card {...school}>
-              <Heading size="md">{school.name}</Heading>
-              <Text color="gray.500">{school.year}</Text>
-              {school.gpa && <Heading size="sm"> GPA : {school.gpa}</Heading>}
+            <Card {...training}>
+              <Heading size="md">{training.name}</Heading>
+              <Text color="gray.500">{training.year}</Text>
+              {training.gpa && (
+                <Heading size="sm"> GPA : {training.gpa}</Heading>
+              )}
               <Text color="gray.800" mt={2}>
-                {school.desc}
+                {training.desc}
               </Text>
             </Card>
           </Box>

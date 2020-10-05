@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Flex } from '@chakra-ui/core'
-import { experience } from '../constants/schools'
+import { experience } from '../constants/experience'
 import { Display } from './Card'
 import { Title } from './Title'
 import { IDisplay } from '../interface'

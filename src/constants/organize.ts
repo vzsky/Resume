@@ -17,4 +17,18 @@ export const organize: IDisplay[] = [
       'I was invited to set a task for PreTOI 2020 by Codecube. PreTOI 2020 is the most attended simulation of the Thailand Olympaid in informatics. in 2020, 92 participants joined. ',
     year: '2020',
   },
+  {
+    name: 'Neon The Hall Music festival',
+    role: 'Director',
+    desc: 'A music festival hosted by students',
+    modalDesc:
+      'A project of 50 students to organize a 6-hour concert at school. Raised $6000. Invited POLYCAT, DEW THE STAR, POV, and RUBBER DUCK to the school. Ticket free of charges, around 400 people joined.',
+  },
+  {
+    name: 'KVIS Ultimate Challenge',
+    role: 'Problemsetter, Staff',
+    desc: 'KVIS academic contest joined by more than 50 schools.',
+    modalDesc:
+      'KVIS UC is an academic contest consist of Math, Biology, Chemistry, and Physics section. I develop a live scoreboard and make parts of problems in Math section.',
+  },
 ]

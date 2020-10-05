@@ -1,21 +1,19 @@
-import { IDisplay } from '../interface'
-
-export const experience: IDisplay[] = [
+import { IEdu } from '../interface'
+export const schools: IEdu[] = [
   {
-    name: 'Student Committee',
-    year: '2019',
-    desc: 'Hosting multiple events and improving life quality of the students',
-    modalDesc:
-      'Elected as a vice presendent of the committee. Together, we host a sport festival, Thai traditional Loi Kratong, Student concert, Valentine, Prom, and many more. Concerning about the life quality, we negotiate and adjust the dormitory regulation to facilitate the students.',
-    role: 'Vice President',
+    name: 'Plearnpattana',
+    year: '2015-2018',
+    desc:
+      'Plearnpattana school is a learning community aims to develop sustainable happiness for lifes and society',
+    gpa: '3.87 on the 4.00 scale',
+    href: 'http://www.plearnpattana.ac.th',
   },
   {
-    name: 'PiRSquare',
-    year: '2020',
+    name: 'Kamnoetvidya Science Academy',
+    year: '2018-2021',
     desc:
-      'Working on a 1-month internship as a full stack developer using NodeJs, ReactJS, TS, and PHP',
-    modalDesc: 'mock',
-    role: 'Developer Intern',
-    href: 'http://pirsquare.net',
+      'Kamnoetvidya Science Academy is an academy that aims for sustainable national development by nurturing future researchers',
+    gpa: '4.00 on the 4.00 scale',
+    href: 'https://www.kvis.ac.th',
   },
 ]
