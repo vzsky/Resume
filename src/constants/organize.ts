@@ -23,6 +23,7 @@ export const organize: IDisplay[] = [
     desc: 'A music festival hosted by students',
     modalDesc:
       'A project of 50 students to organize a 6-hour concert at school. Raised $6000. Invited POLYCAT, DEW THE STAR, POV, and RUBBER DUCK to the school. Ticket free of charges, around 400 people joined.',
+    year: '2018',
   },
   {
     name: 'KVIS Ultimate Challenge',
@@ -30,5 +31,6 @@ export const organize: IDisplay[] = [
     desc: 'KVIS academic contest joined by more than 50 schools.',
     modalDesc:
       'KVIS UC is an academic contest consist of Math, Biology, Chemistry, and Physics section. I develop a live scoreboard and make parts of problems in Math section.',
+    year: '2019',
   },
 ]
