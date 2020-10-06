@@ -19,7 +19,7 @@ const TypedSkill = (props) => (
         {props.skills.map((skill: ISkill, i: number) => (
           <Box
             key={i}
-            width={[1 / 2, 1 / 3, 1 / 4, 1 / 6]}
+            width={['100%', 1 / 3, 1 / 3, 1 / 4]}
             px={[1, 1, 3, 3]}
             py={2}
           >

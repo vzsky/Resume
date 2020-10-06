@@ -14,8 +14,12 @@ export const Title = (props) => (
 
 export const Name = (props) => (
   <Flex alignItems="center">
-    <Box mx="auto" width={[21 / 24, 21 / 24, 20 / 24, 20 / 24]} mt={50}>
-      <Flex justify="space-between">
+    <Box
+      mx="auto"
+      width={[21 / 24, 21 / 24, 20 / 24, 20 / 24]}
+      mt={[0, 30, 50, 50]}
+    >
+      <Box display={{ sm: 'flex' }} justifyContent="space-between">
         <Heading mb={4}>{props.name}</Heading>
         <Box textAlign="end">
           <Heading size="sm" color="gray.500">
@@ -28,7 +32,7 @@ export const Name = (props) => (
             {props.address}
           </Heading>
         </Box>
-      </Flex>
+      </Box>
     </Box>
   </Flex>
 )

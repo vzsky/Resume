@@ -16,7 +16,7 @@ export const Tests = () => (
     >
       <Flex flexWrap="wrap" alignItems="center">
         {tests.map((test: ITest, i: number) => (
-          <Box key={i} width={[1 / 2, 1 / 2, 1 / 3, 1 / 3]} px={5} py={3}>
+          <Box key={i} width={['100%', 1 / 2, 1 / 3, 1 / 3]} px={5} py={3}>
             <Card {...test}>
               <Heading size="sm">{test.name}</Heading>
               <Text color="gray.500">{test.year}</Text>
