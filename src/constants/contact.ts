@@ -35,7 +35,7 @@ export const contact: IContact[] = [
     icon: FaTelegramPlane,
   },
   {
-    href: 'https://medium',
+    href: 'https://medium.com/@my99n',
     icon: FaMediumM,
   },
 ]

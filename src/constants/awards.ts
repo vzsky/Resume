@@ -13,26 +13,26 @@ export const awards: IAward[] = [
     year: '2019',
     award: 'Silver Medal',
     modalDesc:
-      'Being a representative of the MWIT POSN center to compete in the 15th Thailand Olympaid in Informatics (TOI15). Scored 105 on the first day and 300 on the second day. Received a silver medal and the most improvement award.',
+      'Being a representative of the MWIT POSN center to compete in the 15th Thailand Olympiad in Informatics (TOI15). Scored 105 on the first day and 300 on the second day. Received a silver medal and the most improved award.',
   },
   {
     name: 'International Mathematical Modeling Challenge (IMMC)',
     year: '2020',
     award: 'Honorable Mention',
     modalDesc:
-      'As a team of 4, we were selected to a Thailand representative for the IMMC. This year, the challenge involved finding a optimal floor plan for a flash selling store.',
+      'As a team of 4, we were selected to be Thailand representatives for the IMMC. This year, the challenge involved finding an optimal floor plan for a flash selling store.',
   },
   {
     name: 'Innovation Contest in the 60th KMUTT Anniversary',
     year: '2020',
     award: 'Second place',
     modalDesc:
-      'My friend and I made an affordable bed-ridden patient weight scale to help hospitals with low budget and cure health inequallity of the country. This innovation put me in the second place.',
+      'My friend and I made an affordable bed-ridden patient weight scale to help hospitals with low budget and aim to help lessen health inequallity of the country. This innovation put me in the second place.',
   },
   {
     name: 'Tanaosri Trail',
     year: '2017',
-    award: 'Third place of the age group',
+    award: 'Third place',
     modalDesc:
       'I enjoy running. I had a chance to run on a trail track and received the third place of the age group (Under 15 years old).',
   },

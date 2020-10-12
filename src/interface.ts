@@ -3,7 +3,7 @@ import { IconType } from 'react-icons/lib'
 export interface IDisplay {
   name: string
   desc: string
-  modalDesc: string
+  modalDesc?: string
   role?: string
   year?: string
   href?: string
