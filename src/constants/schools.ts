@@ -13,7 +13,7 @@ export const schools: IEdu[] = [
     year: '2018-2021',
     desc:
       'Kamnoetvidya Science Academy is a school that aims for sustainable national development by nurturing future researchers',
-    gpa: '4.00 on a 4.00 scale',
+    gpa: '3.98 on a 4.00 scale',
     href: 'https://www.kvis.ac.th',
   },
 ]
