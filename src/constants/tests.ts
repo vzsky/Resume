@@ -36,4 +36,9 @@ export const tests: ITest[] = [
     score: '583',
     year: '2020',
   },
+  {
+    name: 'SAT',
+    score: '1400',
+    year: '2020',
+  }
 ]
