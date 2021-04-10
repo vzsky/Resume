@@ -23,6 +23,12 @@ export const awards: IAward[] = [
       'As a team of 4, we were selected to be Thailand representatives for the IMMC. This year, the challenge involved finding an optimal floor plan for a flash selling store.',
   },
   {
+    name: '4th KVIS Invitational Science Fair (KVIS-ISF)',
+    year: '2021',
+    award: 'Best Innovation & Best Oral Presentation',
+    modalDesc: 'Received awards in presenting "Optimization of Randomized Response by using Normal Distribution Filter"'
+  },
+  {
     name: 'Innovation Contest in the 60th KMUTT Anniversary',
     year: '2020',
     award: 'Second place',
