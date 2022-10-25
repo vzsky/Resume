@@ -42,7 +42,7 @@ export const contact: IContact[] = [
 
 export const info = {
   name: 'Touch Sungkawichai',
-  phone: '+66802075412',
+  phone: '+66802075412, +821059605412',
   email: 'touchsungkawichai@gmail.com',
-  address: 'Thailand',
+  address: '',
 }

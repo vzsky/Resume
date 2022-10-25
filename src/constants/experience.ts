@@ -26,4 +26,11 @@ export const experience: IDisplay[] = [
       'Kamnoetvidya Science Academy had a chance to host the 7th Asia-Paciffic Conference of Young Scienctists. To facilitate guests on registration, club activities, and event notification, my colleages and I produced a simple web-application using flask and html.',
     role: 'App developer',
   },
+  {
+    name: 'Siriraj Med Camp',
+    year: '2022',
+    desc: "I built a web application on a contract with Siriraj medical students to set up a registration service for the medical camp.",
+    role: 'Full Stack',
+    modalDesc: "The camp was for high school students aiming to get in a medical school or interested in being a medical doctor. Turned out there are a lot of students in this group such that there are more than 6000 registered users during the first 10 days of registration. The system involves offering an online timed quiz, and for security purposes, I decided to use email authentication, which add a little complication."
+  }
 ]

@@ -12,34 +12,42 @@ export const skills: ISkills[] = [
       {
         name: 'Python',
         modalDesc:
-          'I can fluently use python for scientific research. I started writing python in 2014',
+          'I can fluently use python, usually for scientific research. I started writing python in 2014',
       },
       {
         name: 'Javascript',
         modalDesc:
-          'I can write JS for web-developing. I have been using client-side JS since 2015 with html. I also use nodeJS fluently.',
+          'I am fluent in Javascript. I have been using client-side vanilla JS since 2015, and later tried nodeJS.',
       },
       {
         name: 'Typescript',
         modalDesc:
-          'I have been using typescript since 2019 to replace javascript.',
+          'I have replaced Javascript with Typescript since 2019',
       },
       {
         name: 'ReactJs',
         modalDesc:
-          'ReactJs helps facilitate web-developing using javascript. I prefer writing ReactJs for web-development using functional style and hooks.',
+          'ReactJs is a javascript framework that helps facilitate web-developing. I could develop a website quicky using ReactJs. The most loved framework is next.js.',
       },
       { name: 'HTML', modalDesc: 'Yeah, it is not a programing language :)' },
       {
         name: 'CSS',
         modalDesc:
-          'I write style sheets using css, although sometimes centering things are impossible >//<.',
+          'CSS is a programming language because it is Turing Complete. I can write CSS, although sometimes centering things takes a little googling. :P',
       },
-      { name: 'Django', modalDesc: 'I know basic django libraries.' },
-      { name: 'Shell', modalDesc: 'I can write shell script pretty well. I like automating stuff. :)' },
+      { name: 'Django', modalDesc: 'I used django in a few projects for the back-end and authenticator.' },
+      { name: 'Shell', modalDesc: 'Programmers like automation and so do I. Shell is a must for simple automations.' },
       {
-        name: 'Nginx',
-        modalDesc: 'I write configuration for a server using nginx. At least I know how it works.',
+        name: 'Scala',
+        modalDesc: 'It is a great mix of Functional and Imperative Programming that worth a try. I have used it a little in a class project.',
+      },
+      {
+        name: 'Assembly',
+        modalDesc: 'It is not that I can write entirely with Assembly but I understand the main operation and structure of the language.',
+      },
+      {
+        name: 'Haskell',
+        modalDesc: 'I love Haskell since it is pure functional although I am still not comfortable with implementing complex stuffs with Haskell.',
       },
     ],
   },
@@ -49,17 +57,22 @@ export const skills: ISkills[] = [
       {
         name: 'Photography',
         modalDesc:
-          'I love taking pictures of everything. I also love using film cameras even though it is relatively expensive.',
+          'I love taking pictures of everything especially the sun and the sky. I also love using film cameras lately.',
       },
       {
         name: 'Filmmaking',
         modalDesc:
-          'I can write storyboards, make productions, and use software to create videos / short movies. I can use Adobe Premier Pro, Adobe Speedgrade, but I prefer using open sources ie. Davinci Resolve.',
+          'I write storyboards, make productions, and use software to create videos and short movies with a video editor.',
       },
       {
         name: 'Guitar',
         modalDesc:
-          'I play electric guitar (Ibanez gio series) in my free time. I sometimes hang with friends in a band.',
+          'I enjoy playing guitar in my free time and always accept invitation to play in a band.',
+      },
+      {
+        name: 'Bass',
+        modalDesc:
+          'I just started playing bass for a short while but I really enjoy it.',
       },
       {
         name: 'Marathon',
@@ -67,9 +80,9 @@ export const skills: ISkills[] = [
           '22 km on a trail route in 3.00 hours ! 3 times slower than the world record >.<',
       },
       {
-        name: 'DAW',
+        name: 'Music',
         modalDesc:
-          'I use a digital audio workspace (Ableton live 10) to make music, with a midi controller and guitar!',
+          'I love making music and covers and I know how to use a DAW.',
       },
     ],
   },

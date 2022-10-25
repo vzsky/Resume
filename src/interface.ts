@@ -21,6 +21,7 @@ export interface IEdu {
   desc: string
   gpa?: string
   year?: string
+  major?: string
   href?: string
   img?: string
 }

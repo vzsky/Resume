@@ -20,6 +20,7 @@ export const Schools = () => (
             <Card {...school}>
               <Heading size="md">{school.name}</Heading>
               <Text color="gray.500">{school.year}</Text>
+              {school.major && <Heading size="sm"> majoring in {school.major} </Heading>}
               {school.gpa && <Heading size="sm"> GPA : {school.gpa}</Heading>}
               <Text color="gray.800" mt={2}>
                 {school.desc}

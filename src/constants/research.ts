@@ -2,10 +2,10 @@ import { IDisplay } from '../interface'
 
 export const research: IDisplay[] = [
   {
-    name: 'Optimization of Randomized Response',
-    year: '2021',
-    desc: 'Optimization of Randomized Response by using Normal Distribution Filter',
-    href: '/ranres.pdf',
+    name: 'Forced Randomized Response Protocol Using Arbitrary Random Variable',
+    year: '2022',
+    desc: 'Together with two high school friends and two advisors, we researched on randomized response as a way to improve privacy on answering surveys.',
+    href: 'https://www.researchgate.net/publication/363609214_Forced_Randomized_Response_Protocol_Using_Arbitrary_Random_Variable',
     role: 'Researcher',
   },
 ]

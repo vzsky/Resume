@@ -3,10 +3,10 @@ import { IAward } from '../interface'
 export const awards: IAward[] = [
   {
     name: 'Asia Paciffic Olympaid in Informatics (APIO)',
-    year: '2020',
+    year: '2020 & 2021',
     award: 'Participation',
     modalDesc:
-      'I was one of the six representatives of Thailand to compete in the APIO 2020, which is hosted online. I scored 72 out of 300, which ranks me in the 3rd place of Thailand Participants and the 141st of the contest.',
+      'I was one of the six representatives of Thailand to compete in the APIO 2020 and 2021, which is hosted online. I scored 72 out of 300, which ranks me in the 3rd place of Thailand Participants and the 141st of the contest in 2020 and later in 2021 in ranked 137th on the official scoreboard.',
   },
   {
     name: 'Thailand Olympaid in Informatics (TOI)',
