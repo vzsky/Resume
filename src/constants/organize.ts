@@ -30,13 +30,13 @@ export const organize: IDisplay[] = [
     role: 'Problemsetter, Staff',
     desc: 'KVIS academic contest joined by more than 50 schools.',
     modalDesc:
-      'KVIS UC is an academic contest for high school students all over Thailand that consists of Math, Biology, Chemistry, and Physics section. I developed a live scoreboard and wrote parts of the problems in Math section.',
+      'KVIS UC is an academic contest for high school students all over Thailand. I developed a live scoreboard and wrote parts of the problems in Math section.',
     year: '2019',
   },
   {
     name: "TOCPC",
     role: "Problemsetter",
-    desc: "TOCPC, Thailand Online Competitive Programming Contest was initiated by fellow students interested in competitive programming. It was also sponsored by THACO. Almost 700 students enrolled for the competition. I was one of the six problemsetters.",
+    desc: "Thailand Online Competitive Programming Contest was sponsored by THACO. Almost 700 students enrolled for the competition.",
     year: "2021",
     href: "https://tocpc-site.vercel.app",
   },
@@ -44,7 +44,7 @@ export const organize: IDisplay[] = [
     name: 'THACO', 
     role: 'Contest Preparation',
     year: '2020',
-    desc: "THACO, short for Thailand Computing Olympiad was a contest held by Olympiad students aimed to make good contribution toward the study of computing in Thailand. More than 400 competitors enrolled. During the time, I help refine and prepare the problemset used in the competition.",
+    desc: "Thailand Computing Olympiad was held by Olympiad students aimed to make improvement in computing education. More than 400 competitors enrolled.",
     href: "https://www.facebook.com/ThailandComputingOlympiad"
   }
 ]

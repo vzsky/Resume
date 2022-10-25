@@ -7,6 +7,7 @@ import { Educations } from '../components/Educations'
 import { Experience } from '../components/Experience'
 import { Research } from '../components/Research'
 import { Identity } from '../components/Identity'
+import { Footer } from '../components/Footer'
 
 const BlankSpace = () => <Box height="100px" />
 
@@ -21,6 +22,7 @@ const IndexPage = () => {
       <Activity />
       <Skill />
       <BlankSpace />
+      <Footer />
     </Flex>
   )
 }

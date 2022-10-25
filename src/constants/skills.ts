@@ -77,13 +77,25 @@ export const skills: ISkills[] = [
       {
         name: 'Marathon',
         modalDesc:
-          '22 km on a trail route in 3.00 hours ! 3 times slower than the world record >.<',
+          "22 km on a trail route in 3.00 hours! 3 times slower than the world record. And I don't think I can do that much anymore T-T",
       },
       {
         name: 'Music',
         modalDesc:
           'I love making music and covers and I know how to use a DAW.',
       },
+      {
+        name: "Electronic", 
+        modalDesc: "I just assembled a keyboard out of switches and diodes, and gained some skills on electronic circuits and microcontrollers."
+      },
+      {
+        name: "Basketball",
+        modalDesc: "I enjoy playing basketball and I won't turn down an invitation."
+      },
+      {
+        name: "Teaching",
+        modalDesc: "I had tutored a few students during the semester break, usually on Mathematics and Computer Science."
+      }
     ],
   },
 ]
