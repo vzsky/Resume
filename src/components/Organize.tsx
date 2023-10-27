@@ -8,7 +8,7 @@ import { IDisplay } from '../interface'
 export const Organize = () => {
   return (
     <>
-      <Title title="Events Organization" size="lg" />
+      <Title title="Activities" size="xl" />
       <Flex
         direction="column"
         mt={6}

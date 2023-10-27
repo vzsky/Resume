@@ -20,7 +20,7 @@ export const schools: IEdu[] = [
     name: 'Korea Advanced Institute of Science and Technology',
     year: '2021-',
     major: "CS and Math",
-    desc: "KAIST is the first and top science university in korea that pushes advanced in technology and korea's innovations.",
+    desc: "KAIST is the first and top science university in korea that pushes advancement in technology and korea's innovations.",
     href: "https://www.kaist.ac.kr/en/",
   }
 ]

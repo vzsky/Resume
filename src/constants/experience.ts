@@ -2,14 +2,6 @@ import { IDisplay } from '../interface'
 
 export const experience: IDisplay[] = [
   {
-    name: 'KVIS Student Committee',
-    year: '2019',
-    desc: 'Hosting multiple events and improving life quality of students',
-    modalDesc:
-      "I was elected as a vice presendent of the committee. Together with the team, we host a sport festival, Thai traditional Loi Kratong event, Students' concert, Valentine's day, Prom, and many more. Concerning about life quality, we propose an adjustment of the dormitory and school regulations and successfully pushed forward some.",
-    role: 'Vice President',
-  },
-  {
     name: 'PiRSquare',
     year: '2020',
     desc:
@@ -46,12 +38,6 @@ export const experience: IDisplay[] = [
     desc: 'Built an E-learning platform for the group named Classmates',
     role: 'Back End',
     href: 'https://ieltsbyclassmates.com'
-  },
-  {
-    name: "TMLCC",
-    year: "2021",
-    desc: "Ranked 9th in the Thailand Machine Learning for Chemistry Competition",
-    modalDesc: "Using various tools for regression on python, we managed to predict certain property of the MOFs and ranked in the 9th place."
   },
   {
     name: "HackUST",

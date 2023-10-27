@@ -6,9 +6,9 @@ import { Initiatives } from './Initiatives'
 export const Activity = () => {
   return (
     <>
-      <Title title="Activities" size="xl" />
+      { /* <Title title="Activities" size="xl" /> */ }
       <Organize />
-      <Initiatives />
+      { /* <Initiatives /> */ }
     </>
   )
 }

@@ -40,5 +40,10 @@ export const tests: ITest[] = [
     name: 'SAT',
     score: '1400',
     year: '2020',
+  },
+  {
+    name: 'TOPIK (Standardized Korean)', 
+    score: '2 급', 
+    year: '2023'
   }
 ]

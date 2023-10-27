@@ -10,6 +10,14 @@ export const organize: IDisplay[] = [
     year: '2020',
   },
   {
+    name: 'KVIS Student Committee',
+    year: '2019',
+    desc: 'Hosting multiple events and improving life quality of students',
+    modalDesc:
+      "I was elected as a vice presendent of the committee. Together with the team, we host a sport festival, Thai traditional Loi Kratong event, Students' concert, Valentine's day, Prom, and many more. Concerning about life quality, we propose an adjustment of the dormitory and school regulations and successfully pushed forward some.",
+    role: 'Vice President',
+  },
+  {
     name: 'Neon The Hall Music festival',
     role: 'Director',
     desc: 'A music festival hosted by students',
@@ -46,5 +54,13 @@ export const organize: IDisplay[] = [
     year: '2020',
     desc: "Thailand Computing Olympiad was held by Olympiad students aimed to make improvement in computing education. More than 400 competitors enrolled.",
     href: "https://www.facebook.com/ThailandComputingOlympiad"
-  }
+  },
+  {
+    name: 'KVISOI Club',
+    desc: "A students' competitive programming club in KVIS",
+    modalDesc:
+      'The KVIS Olympiad in Informatics club was founded in 2018, aiming to train students for the National and Internation olympiad and contests. The club owns a grading site to let students practice 24/7 at https://kvisoi.club. I teamed up with fellow competitive programmers to train other students, and also setting various tasks for them to practice.',
+    year: '2018-2020',
+    role: 'Founder and trainer',
+  },
 ]

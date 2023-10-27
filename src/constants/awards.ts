@@ -23,6 +23,12 @@ export const awards: IAward[] = [
       'As a team of 4, we were selected to be Thailand representatives for the IMMC. This year, the challenge involved finding an optimal floor plan for a flash selling store.',
   },
   {
+    name: "TMLCC",
+    year: "2021",
+    award: "rank 9th",
+    modalDesc: "Using various tools for regression on python, we managed to predict certain property of the MOFs and ranked in the 9th place in the competition consisting of participants of all ages."
+  },
+  {
     name: '4th KVIS Invitational Science Fair (KVIS-ISF)',
     year: '2021',
     award: 'Best Innovation & Best Oral Presentation',
@@ -33,7 +39,7 @@ export const awards: IAward[] = [
     year: '2020',
     award: 'Second place',
     modalDesc:
-      'My friend and I made an affordable bed-ridden patient weight scale to help hospitals with low budget and aim to help lessen health inequallity of the country. This innovation put me in the second place.',
+      'My friend and I reinvented an affordable bed-ridden patient weight scale to help hospitals with low budget and aim to help lessen health inequallity of the country. This innovation put me in the second place.',
   },
   {
     name: 'Tanaosri Trail',
