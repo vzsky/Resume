@@ -27,7 +27,7 @@ export const skills: ISkills[] = [
       {
         name: 'ReactJs',
         modalDesc:
-          'ReactJs is a javascript framework that helps facilitate web-developing. I could develop a website quicky using ReactJs. The most loved framework is next.js.',
+          'ReactJs is a javascript framework that facilitates web-developing, and I love using next.js in many projects.',
       },
       { name: 'HTML', modalDesc: 'Yeah, it is not a programing language :)' },
       {
@@ -35,7 +35,7 @@ export const skills: ISkills[] = [
         modalDesc:
           'CSS is a programming language because it is Turing Complete. I can write CSS, although sometimes centering things takes a little googling. :P',
       },
-      { name: 'Django', modalDesc: 'I used django in a few projects for the back-end and authenticator.' },
+      { name: 'Django', modalDesc: 'I used django in a few projects for the back-end, but still prefer the js way.' },
       { name: 'Shell', modalDesc: 'Programmers like automation and so do I. Shell is a must for simple automations.' },
       {
         name: 'Scala',
@@ -49,6 +49,10 @@ export const skills: ISkills[] = [
         name: 'Haskell',
         modalDesc: 'I love Haskell since it is pure functional although I am still not comfortable with implementing complex stuffs with Haskell.',
       },
+      {
+        name: 'APL', 
+        modalDesc: 'APL is very powerful and open the new way I think about programming, however, it is still impossible to get fluent in APL.'
+      }
     ],
   },
   {
@@ -60,11 +64,6 @@ export const skills: ISkills[] = [
           'I love taking pictures of everything especially the sun and the sky. I also love using film cameras lately.',
       },
       {
-        name: 'Filmmaking',
-        modalDesc:
-          'I write storyboards, make productions, and use software to create videos and short movies with a video editor.',
-      },
-      {
         name: 'Guitar',
         modalDesc:
           'I enjoy playing guitar in my free time and always accept invitation to play in a band.',
@@ -72,7 +71,7 @@ export const skills: ISkills[] = [
       {
         name: 'Bass',
         modalDesc:
-          'I just started playing bass for a short while but I really enjoy it.',
+          'I started playing bass for a while but I really enjoy it.',
       },
       {
         name: 'Marathon',
@@ -82,11 +81,11 @@ export const skills: ISkills[] = [
       {
         name: 'Music',
         modalDesc:
-          'I love making music and covers and I know how to use a DAW.',
+          'I love making music and covers and I know how to use a DAW. If interested, check out my99n on youtube!',
       },
       {
-        name: "Electronic", 
-        modalDesc: "I just assembled a keyboard out of switches and diodes, and gained some skills on electronic circuits and microcontrollers."
+        name: "Keyboard Making", 
+        modalDesc: "I handwired a keyboard out of switches and diodes, and not only get a keyboard but also gained some skills on electronic circuits and microcontrollers."
       },
       {
         name: "Basketball",
@@ -94,7 +93,11 @@ export const skills: ISkills[] = [
       },
       {
         name: "Teaching",
-        modalDesc: "I had tutored a few students during the semester break, usually on Mathematics and Computer Science."
+        modalDesc: "I had tutored a few students during every semester breaks, usually on Mathematics and Computer Science."
+      }, 
+      {
+        name: "Investment", 
+        modalDesc: "I read financial statements, valuing a company, and buy stocks. No, I don't get much profit."
       }
     ],
   },
